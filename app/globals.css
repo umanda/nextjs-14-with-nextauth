@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-drawify-gradient-text {
+    @apply bg-gradient-to-br from-violet-600 via-pink-600 to-blue-600;
+  }
+} 
